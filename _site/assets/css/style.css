@@ -1,0 +1,33 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #EAEAEA;
+  }
+
+  body {
+  background-color: #252A34; /* Dark gray */
+  }
+
+  header, footer {
+    background-color: #252A34;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #bac2b3;
+  }
+
+  .no-underline {
+  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none;
+  }
+
+  main {
+  max-width: 900px; /* Adjust width as needed */
+  margin: 0 auto;   /* Centers the element horizontally */
+  padding: 20px;
+  }
